@@ -1,0 +1,16 @@
+# dependencies
+    node_modules/
+
+# zip files
+    *.zip
+
+# environment
+    .env
+
+# build output
+    dist/
+    build/
+
+# system files
+    .DS_Store
+    Thumbs.db
