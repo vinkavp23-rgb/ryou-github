@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+    --container: 1240px;
+       
+}
+
+.custom-container {
+    max-width: var(--container);
+}
+.container {
+    @apply max-w-(--container) md:mx-auto
+}
+.banner-icon {
+    @apply bg-white p-2 md:p-5 col-span-2
+}
+.heading-xl {
+    @apply text-white text-4xl md:text-[42px]/[52px] font-normal
+}
+.btn-chip {
+    @apply flex justify-center py-2 gap-2 w-44 text-gray-300 bg-white/20 text-base rounded-4xl hover:bg-white mt-4
+}
+.pattern-card {
+    @apply -right-12 md:-right-32 -bottom-28 md:-bottom-48 absolute w-sm md:w-xl
+}
+.card {
+    @apply col-span-5 bg-black rounded-[40px]
+}
+.feature-card {
+    @apply flex flex-col gap-6 p-24
+}
+.card-group {
+    @apply absolute -top-28
+}
+.blog-card {
+    @apply bg-white p-10 hover:bg-red-500
+}
+.blog-image {
+    @apply inline-block w-full
+}
+.blog-title {
+    @apply pt-5 pb-10 text-black text-2xl font-normal inline-block
+}
+.blog-date {
+    @apply text-black text-sm
+}
+.footer-contact-item {
+    @apply flex justify-between items-center p-2 border-b border-gray-400
+}
+.footer-contact-info {
+    @apply flex text-white
+}
+.footer-contact-title {
+    @apply text-lg font-semibold
+}
+.footer-contact-value {
+    @apply text-white text-base font-normal text-right opacity-50
+}
+.footer-contact-icon {
+    @apply opacity-50
+}
+.footer-link {
+    @apply flex flex-row justify-between items-center border-b border-white
+}
+.footer-link p {
+    @apply text-white text-lg
+}
