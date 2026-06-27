@@ -23,11 +23,14 @@
 .pattern-card {
     @apply -right-12 md:-right-32 -bottom-28 md:-bottom-48 absolute w-sm md:w-xl
 }
-.card {
-    @apply col-span-5 bg-black rounded-[40px]
+.benefits-grid {
+    @apply col-span-2 md:col-span-5 bg-black rounded-3xl md:rounded-4xl
 }
-.feature-card {
-    @apply flex flex-col gap-6 p-24
+.benefits-card {
+    @apply flex flex-col gap-6 p-11 md:p-24
+}
+.benefits-card-title {
+    @apply px-5 text-white text-xl md:text-3xl text-center
 }
 .card-group {
     @apply absolute -top-28
