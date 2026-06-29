@@ -36,13 +36,13 @@
     @apply absolute -top-28
 }
 .blog-card {
-    @apply bg-white p-10 hover:bg-red-500
+    @apply bg-white p-5 md:p-10 hover:bg-red-500
 }
 .blog-image {
     @apply inline-block w-full
 }
 .blog-title {
-    @apply pt-5 pb-10 text-black text-2xl font-normal inline-block
+    @apply pt-5 pb-10 text-black text-xl md:text-2xl font-normal inline-block
 }
 .blog-date {
     @apply text-black text-sm
@@ -54,10 +54,10 @@
     @apply flex text-white
 }
 .footer-contact-title {
-    @apply text-lg font-semibold
+    @apply text-base md:text-lg font-semibold
 }
 .footer-contact-value {
-    @apply text-white text-base font-normal text-right opacity-50
+    @apply text-white text-sm md:text-base font-normal text-right opacity-50
 }
 .footer-contact-icon {
     @apply opacity-50
@@ -66,5 +66,5 @@
     @apply flex flex-row justify-between items-center border-b border-white
 }
 .footer-link p {
-    @apply text-white text-lg
+    @apply text-white text-base md:text-lg
 }
