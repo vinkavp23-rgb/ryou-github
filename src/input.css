@@ -33,7 +33,7 @@
     @apply px-5 text-white text-xl md:text-3xl text-center
 }
 .card-group {
-    @apply absolute -top-28
+    @apply absolute md:-bottom-20
 }
 .blog-card {
     @apply bg-white p-5 md:p-10 hover:bg-red-500
